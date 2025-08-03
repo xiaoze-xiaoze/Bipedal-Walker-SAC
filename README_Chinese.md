@@ -12,7 +12,7 @@
 
 ![Training](Training.png)
 
-智能体大约在800-1000个episode开始收敛，在1500-2000个episode左右能够稳定达到330+的分数。
+智能体大约在800-1000个episode开始收敛，在1000-1500个episode左右能够稳定达到330+的分数。
 
 ## 完整代码
 
@@ -440,4 +440,5 @@ class SACAgent:
         
         plt.tight_layout()
         plt.show()
+
 ```
