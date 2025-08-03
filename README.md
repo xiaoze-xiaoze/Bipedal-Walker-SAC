@@ -12,7 +12,7 @@ This project trains an AI agent to walk using the SAC algorithm, which combines 
 
 ![Training](Training.png)
 
-The agent starts converging around 800-1000 episodes and achieves stable scores of 330+ around 1500-2000 episodes.
+The agent starts converging around 800-1000 episodes and achieves stable scores of 330+ around 1000-1500 episodes.
 
 ## Requirements
 
@@ -24,4 +24,5 @@ pip install torch gymnasium numpy matplotlib
 
 - `main.py` - Training and testing script
 - `Agent.py` - SAC agent implementation
+
 - `model/` - Saved models directory
